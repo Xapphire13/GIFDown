@@ -16,7 +16,7 @@ export default function Searchbar({ onSearch }: SearchbarProps) {
 
   return <Stack horizontal>
     <StackItem grow>
-      <TextField placeholder="Search for a GIF..." value={value} onKeyPress={onEnter(handleSearch)} onChange={(_, newValue) => setValue(newValue)} />
+      <TextField autoFocus placeholder="Search for a GIF..." value={value} onKeyPress={onEnter(handleSearch)} onChange={(_, newValue) => setValue(newValue)} />
     </StackItem>
     <PrimaryButton onClick={handleSearch}>Search</PrimaryButton>
   </Stack>;
