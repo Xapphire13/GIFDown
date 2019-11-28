@@ -1,0 +1,31 @@
+{
+  "name": "gifdown",
+  "version": "0.0.0",
+  "description": "Chrome extension for copying Giphy GIFs as Markdown",
+  "private": true,
+  "scripts": {},
+  "author": "Xapphire13",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@giphy/js-fetch-api": "^1.4.1",
+    "@giphy/js-types": "^2.0.0",
+    "@giphy/react-components": "^0.3.4",
+    "@types/chrome": "0.0.91",
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-with-styles": "^4.0.2",
+    "copy-text-to-clipboard": "^2.1.1",
+    "copy-webpack-plugin": "^5.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "office-ui-fabric-react": "^7.65.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-with-styles": "^4.1.0",
+    "react-with-styles-interface-aphrodite": "^6.0.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
